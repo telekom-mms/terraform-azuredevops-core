@@ -1,0 +1,11 @@
+{
+  "repos": {
+    "description": "A Terraform module that manages the tpl_resources resources from the azurerm provider.",
+    "visibility": "public",
+    "default_branch": "main",
+    "topics": [
+      "terraform",
+      "azure"
+    ]
+  }
+}
