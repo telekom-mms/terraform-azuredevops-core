@@ -1,9 +1,9 @@
-output "tpl_local_name" {
+output "project" {
   description = "Outputs all attributes of resource_type."
   value = {
-    for tpl_local_name in keys(tpl_resource_type.tpl_local_name) :
-    tpl_local_name => {
-      for key, value in tpl_resource_type.tpl_local_name[tpl_local_name] :
+    for project in keys(azuredevops_project.project) :
+    project => {
+      for key, value in azuredevops_project.project[project] :
       key => value
     }
   }
@@ -17,9 +17,9 @@ output "variables" {
       variable => local.default[variable]
     }
     merged = {
-      tpl_local_name = {
-        for key in keys(var.tpl_local_name) :
-        key => local.tpl_local_name[key]
+      project = {
+        for key in keys(var.project) :
+        key => local.project[key]
       }
     }
   }

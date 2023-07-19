@@ -1,15 +1,18 @@
 /**
-* # tpl_module
+* # core
 *
-* This module manages the tpl_provider tpl_module resources.
-* For more information see https://registry.terraform.io/providers/tpl_provider/latest/docs > tpl_module
+* This module manages the microsoft/azuredevops core resources.
+* For more information see https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs
 *
 */
 
-resource "tpl_resource_type" "tpl_local_name" {
-  for_each = var.tpl_local_name
+resource "azuredevops_project" "project" {
+  for_each = var.project
 
-  name = local.tpl_local_name[each.key].name == "" ? each.key : local.tpl_local_name[each.key].name
-
-  tags = local.tpl_local_name[each.key].tags
+  name               = local.project[each.key].name == "" ? each.key : local.project[each.key].name
+  description        = local.project[each.key].description
+  visibility         = local.project[each.key].visibility
+  version_control    = local.project[each.key].version_control
+  work_item_template = local.project[each.key].work_item_template
+  features           = local.project[each.key].features
 }

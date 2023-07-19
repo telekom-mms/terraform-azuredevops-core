@@ -1,11 +1,12 @@
 {
   "repos": {
-    "description": "A Terraform module that manages the tpl_resources resources from the azurerm provider.",
+    "description": "A Terraform module that manages the core resources from the azuredevops provider.",
     "visibility": "public",
     "default_branch": "main",
     "topics": [
       "terraform",
-      "azure"
+      "azuredevops",
+      "project"
     ]
   }
 }
