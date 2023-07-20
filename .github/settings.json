@@ -3,7 +3,7 @@
     "description": "A Terraform module that manages the core resources from the azuredevops provider.",
     "visibility": "public",
     "default_branch": "main",
-    "website": "https://telekom-mms.github.io/terraform-template",
+    "homepage": "https://telekom-mms.github.io/terraform-template",
     "topics": [
       "terraform",
       "azuredevops",
