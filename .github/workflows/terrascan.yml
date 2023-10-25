@@ -14,5 +14,6 @@ jobs:
     uses: telekom-mms/.github/.github/workflows/terrascan.yml@main
     with:
       iac_type: terraform
+      iac_dir: ./tests
       policy_type: all
       non_recursive: true
