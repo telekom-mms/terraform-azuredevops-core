@@ -1,8 +1,12 @@
 # Changelog
 
-## [1.0.1](https://github.com/telekom-mms/terraform-azuredevops-core/tree/1.0.1) (2024-08-28)
+## [1.0.1](https://github.com/telekom-mms/terraform-azuredevops-core/tree/1.0.1) (2025-08-28)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azuredevops-core/compare/1.0.0...1.0.1)
+
+**Fixed bugs:**
+
+- fix terrascan workflow run [\#4](https://github.com/telekom-mms/terraform-azuredevops-core/pull/4) ([michaelamattes](https://github.com/michaelamattes))
 
 **Merged pull requests:**
 
