@@ -1,16 +1,17 @@
 # Changelog
 
-## [1.0.1](https://github.com/telekom-mms/terraform-azuredevops-core/tree/1.0.1) (2025-08-28)
+## [1.0.1](https://github.com/telekom-mms/terraform-azuredevops-core/tree/1.0.1) (2026-03-30)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azuredevops-core/compare/1.0.0...1.0.1)
 
 **Fixed bugs:**
 
-- fix terrascan workflow run [\#4](https://github.com/telekom-mms/terraform-azuredevops-core/pull/4) ([michaelamattes](https://github.com/michaelamattes))
+- fix terrascan workflow run [\#4](https://github.com/telekom-mms/terraform-azuredevops-core/pull/4) ([mikaEz](https://github.com/mikaEz))
 
 **Merged pull requests:**
 
-- run terrascan in test setting directory [\#2](https://github.com/telekom-mms/terraform-azuredevops-core/pull/2) ([michaelamattes](https://github.com/michaelamattes))
+- chore\(config\): standardize renovate.json and update repository topics [\#5](https://github.com/telekom-mms/terraform-azuredevops-core/pull/5) ([mikaEz](https://github.com/mikaEz))
+- run terrascan in test setting directory [\#2](https://github.com/telekom-mms/terraform-azuredevops-core/pull/2) ([mikaEz](https://github.com/mikaEz))
 
 ## [1.0.0](https://github.com/telekom-mms/terraform-azuredevops-core/tree/1.0.0) (2023-07-20)
 
